@@ -1,0 +1,25 @@
+drop table if exists books;
+create table books (
+  id int not null auto_increment primary key,
+  book_title varchar(50) not null,
+  book_author varchar(50),
+  category_id int,
+  purchase_date char(8),
+  book_comment text,
+  reg_date datetime
+);
+
+create table category (
+  id smallint primary key,
+  category varchar(20)
+);
+
+
+insert into category (id , category) values (1, 'コミック');
+insert into category (id , category) values (2, 'ビジネス');
+insert into category (id , category) values (3, 'テクノロジー');
+insert into category (id , category) values (4, '政治・社会');
+insert into category (id , category) values (5, '文芸');
+insert into category (id , category) values (6, '芸術');
+
+

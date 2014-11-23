@@ -1,0 +1,31 @@
+.header-wrap{
+    background-color: #ADD8E6;
+}
+
+.input-append {
+    margin-top: 25px;
+}
+
+.table-wrap{
+    margin-top: 50px;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
